@@ -16,7 +16,7 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.dark,
       darkTheme: ThemeData.dark().copyWith(scaffoldBackgroundColor: scaffoldBackgroundColorColor),
-      home: SplashView()
+      home: const SplashView()
     );
   }
 }

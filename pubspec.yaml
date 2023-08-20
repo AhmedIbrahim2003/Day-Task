@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_svg: ^2.0.7
+  google_fonts: ^5.1.0
   hexcolor: ^3.0.1
 
 dev_dependencies:
@@ -21,6 +22,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/applogo.svg
+    - assets/images/splash/splashimage.png
 
   fonts:
     - family: Pilat Extended

@@ -8,36 +8,39 @@ class AppLogo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        SvgPicture.asset(AssetsData.appLogo),
-        const Text.rich(
-          TextSpan(
-            children: [
-              TextSpan(
-                text: 'Day',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 16.26,
-                  fontFamily: 'Pilat Extended',
-                  fontWeight: FontWeight.w600,
-                  height: 0.94,
+    return Align(
+      alignment: Alignment.topLeft,
+      child: Column(
+        children: [
+          SvgPicture.asset(AssetsData.appLogo),
+          const Text.rich(
+            TextSpan(
+              children: [
+                TextSpan(
+                  text: 'Day',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 16.26,
+                    fontFamily: 'Pilat Extended',
+                    fontWeight: FontWeight.w600,
+                    height: 0.94,
+                  ),
                 ),
-              ),
-              TextSpan(
-                text: 'Task',
-                style: TextStyle(
-                  color: Color(0xFFFED36A),
-                  fontSize: 16.26,
-                  fontFamily: 'Pilat Extended',
-                  fontWeight: FontWeight.w600,
-                  height: 0.94,
+                TextSpan(
+                  text: 'Task',
+                  style: TextStyle(
+                    color: Color(0xFFFED36A),
+                    fontSize: 16.26,
+                    fontFamily: 'Pilat Extended',
+                    fontWeight: FontWeight.w600,
+                    height: 0.94,
+                  ),
                 ),
-              ),
-            ],
-          ),
-        )
-      ],
+              ],
+            ),
+          )
+        ],
+      ),
     );
   }
 }
