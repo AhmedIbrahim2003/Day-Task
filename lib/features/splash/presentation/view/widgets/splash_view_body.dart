@@ -1,13 +1,11 @@
 import 'package:day_task/constants.dart';
-import 'package:day_task/core/utils/assets.dart';
 import 'package:day_task/features/auth/presentation/register/view/register_view.dart';
 import 'package:day_task/features/splash/presentation/view/widgets/splash_image.dart';
 import 'package:day_task/features/splash/presentation/view/widgets/splash_text.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 import '../../../../../core/widgets/my_custom_button.dart';
-import 'app_logo.dart';
+import '../../../../../core/widgets/app_logo.dart';
 
 class SplashViewBody extends StatelessWidget {
   const SplashViewBody({super.key});

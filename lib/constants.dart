@@ -1,8 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:hexcolor/hexcolor.dart';
-
-var scaffoldBackgroundColorColor = HexColor('#212832');
-var customYellowColor = HexColor('#FED36A');
 
 void myPushReplacmentNavigator(
     {required BuildContext context, required Widget destination}) {

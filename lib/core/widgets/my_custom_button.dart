@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../../constants.dart';
+import '../utils/colors.dart';
 
 class MyCustomButton extends StatelessWidget {
   const MyCustomButton({super.key, required this.title, required this.onTap});
@@ -16,7 +16,7 @@ class MyCustomButton extends StatelessWidget {
       child: Container(
         width: 376,
         height: 68,
-        color: customYellowColor,
+        color: CustomColors.customYellowColor,
         child: Center(
           child: Text(
             title,

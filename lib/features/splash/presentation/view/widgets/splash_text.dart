@@ -1,5 +1,6 @@
-import 'package:day_task/constants.dart';
 import 'package:flutter/material.dart';
+
+import '../../../../../core/utils/colors.dart';
 
 class SplashText extends StatelessWidget {
   const SplashText({super.key});
@@ -22,7 +23,7 @@ class SplashText extends StatelessWidget {
           TextSpan(
             text: 'DayTask',
             style: TextStyle(
-              color: customYellowColor,
+              color: CustomColors.customYellowColor,
               fontSize: 50,
               fontFamily: 'Pilat Extended',
               fontWeight: FontWeight.w600,
