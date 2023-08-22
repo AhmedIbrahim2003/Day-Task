@@ -1,10 +1,10 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 void myPushReplacmentNavigator(
     {required BuildContext context, required Widget destination}) {
   Navigator.pushReplacement(
     context,
-    CupertinoPageRoute(
+    MaterialPageRoute(
       builder: (context) => destination,
     ),
   );
@@ -14,7 +14,7 @@ void myPushNavigator(
     {required BuildContext context, required Widget destination}) {
   Navigator.push(
     context,
-    CupertinoPageRoute(
+    MaterialPageRoute(
       builder: (context) => destination,
     ),
   );

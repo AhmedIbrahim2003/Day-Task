@@ -1,6 +1,5 @@
+import 'package:day_task/gen/assets.gen.dart';
 import 'package:flutter/material.dart';
-
-import '../../../../../core/utils/assets.dart';
 
 class SplashImage extends StatelessWidget {
   const SplashImage({super.key});
@@ -11,8 +10,8 @@ class SplashImage extends StatelessWidget {
       width: 339,
       height: 300,
       color: Colors.white,
-      child: Image.asset(
-        AssetsData.onBoardingImage,
+      child: Image(
+        image: Assets.images.splash.splashimage.provider(),
         fit: BoxFit.scaleDown,
       ),
     );

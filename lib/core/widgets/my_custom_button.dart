@@ -16,7 +16,7 @@ class MyCustomButton extends StatelessWidget {
       child: Container(
         width: 376,
         height: 68,
-        color: CustomColors.customYellowColor,
+        color: CustomColors.primaryColor,
         child: Center(
           child: Text(
             title,
