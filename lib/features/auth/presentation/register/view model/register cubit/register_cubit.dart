@@ -18,7 +18,7 @@ class RegisterCubit extends Cubit<RegisterStates> {
     showpassword = !showpassword;
     showpassword
         ? showPasswordIcon = SvgPicture.asset(Assets.images.auth.showpassword2)
-        : showPasswordIcon = SvgPicture.asset(Assets.images.auth.showpassword1,color: CustomColors.authSubTitleColor);
+        : showPasswordIcon = SvgPicture.asset(Assets.images.auth.showpassword1,color: CustomColors.subTitleColor);
     emit(RegisterShowPasswordState());
   }
 
@@ -28,7 +28,7 @@ class RegisterCubit extends Cubit<RegisterStates> {
     isagreedToTerm = !isagreedToTerm;
     isagreedToTerm
         ? agreeBox = SvgPicture.asset(Assets.images.auth.agreebox2)
-        : agreeBox = SvgPicture.asset(Assets.images.auth.agreebox1,color: CustomColors.authSubTitleColor);
+        : agreeBox = SvgPicture.asset(Assets.images.auth.agreebox1,color: CustomColors.subTitleColor);
     emit(RegisterAgreeToTermsState());
   }
 }

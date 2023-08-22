@@ -36,7 +36,7 @@ class MyInputTextForm extends StatelessWidget {
           Text(
             title,
             style: TextStyle(
-              color: CustomColors.authSubTitleColor,
+              color: CustomColors.subTitleColor,
               fontSize: 16,
               fontFamily: FontFamily.inter,
               fontWeight: FontWeight.w400,

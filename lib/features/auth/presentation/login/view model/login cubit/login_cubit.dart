@@ -20,7 +20,7 @@ class LoginCubit extends Cubit<LoginStates> {
     showpassword
         ? showPasswordIcon = SvgPicture.asset(Assets.images.auth.showpassword2)
         : showPasswordIcon = SvgPicture.asset(Assets.images.auth.showpassword1,
-            color: CustomColors.authSubTitleColor);
+            color: CustomColors.subTitleColor);
     emit(LoginShowPasswordState());
   }
 
@@ -31,7 +31,7 @@ class LoginCubit extends Cubit<LoginStates> {
     isagreedToTerm
         ? agreeBox = SvgPicture.asset(Assets.images.auth.agreebox2)
         : agreeBox = SvgPicture.asset(Assets.images.auth.agreebox1,
-            color: CustomColors.authSubTitleColor);
+            color: CustomColors.subTitleColor);
     emit(LoginAgreeToTermsState());
   }
 }

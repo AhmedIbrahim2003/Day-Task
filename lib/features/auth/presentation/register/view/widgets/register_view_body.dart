@@ -109,7 +109,7 @@ class RegisterViewBody extends StatelessWidget {
                               side: BorderSide(
                                 width: 0.50,
                                 strokeAlign: BorderSide.strokeAlignCenter,
-                                color: CustomColors.authSubTitleColor,
+                                color: CustomColors.subTitleColor,
                               ),
                             ),
                           ),
@@ -118,7 +118,7 @@ class RegisterViewBody extends StatelessWidget {
                           'Or continue with',
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                            color: CustomColors.authSubTitleColor,
+                            color: CustomColors.subTitleColor,
                             fontSize: 16,
                             fontFamily: FontFamily.inter,
                             fontWeight: FontWeight.w500,
@@ -132,7 +132,7 @@ class RegisterViewBody extends StatelessWidget {
                               side: BorderSide(
                                 width: 0.50,
                                 strokeAlign: BorderSide.strokeAlignCenter,
-                                color: CustomColors.authSubTitleColor,
+                                color: CustomColors.subTitleColor,
                               ),
                             ),
                           ),
@@ -149,7 +149,7 @@ class RegisterViewBody extends StatelessWidget {
                         Text(
                           'Already have an account?',
                           style: TextStyle(
-                            color: CustomColors.authSubTitleColor,
+                            color: CustomColors.subTitleColor,
                             fontSize: 16,
                             fontFamily: 'Inter',
                             fontWeight: FontWeight.w500,

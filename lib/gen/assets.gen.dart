@@ -16,7 +16,9 @@ class $AssetsImagesGen {
   String get applogo => 'assets/images/applogo.svg';
 
   $AssetsImagesAuthGen get auth => const $AssetsImagesAuthGen();
+  $AssetsImagesHomeGen get home => const $AssetsImagesHomeGen();
   $AssetsImagesSplashGen get splash => const $AssetsImagesSplashGen();
+  $AssetsImagesTasksGen get tasks => const $AssetsImagesTasksGen();
 
   /// List of all assets
   List<String> get values => [applogo];
@@ -62,6 +64,42 @@ class $AssetsImagesAuthGen {
       ];
 }
 
+class $AssetsImagesHomeGen {
+  const $AssetsImagesHomeGen();
+
+  /// File path: assets/images/home/addicon.svg
+  String get addicon => 'assets/images/home/addicon.svg';
+
+  /// File path: assets/images/home/calendaricon.svg
+  String get calendaricon => 'assets/images/home/calendaricon.svg';
+
+  /// File path: assets/images/home/homeicon.svg
+  String get homeicon => 'assets/images/home/homeicon.svg';
+
+  /// File path: assets/images/home/messagesicon.svg
+  String get messagesicon => 'assets/images/home/messagesicon.svg';
+
+  /// File path: assets/images/home/notificationicon.svg
+  String get notificationicon => 'assets/images/home/notificationicon.svg';
+
+  /// File path: assets/images/home/searchicon.svg
+  String get searchicon => 'assets/images/home/searchicon.svg';
+
+  /// File path: assets/images/home/settingicon.svg
+  String get settingicon => 'assets/images/home/settingicon.svg';
+
+  /// List of all assets
+  List<String> get values => [
+        addicon,
+        calendaricon,
+        homeicon,
+        messagesicon,
+        notificationicon,
+        searchicon,
+        settingicon
+      ];
+}
+
 class $AssetsImagesSplashGen {
   const $AssetsImagesSplashGen();
 
@@ -71,6 +109,29 @@ class $AssetsImagesSplashGen {
 
   /// List of all assets
   List<AssetGenImage> get values => [splashimage];
+}
+
+class $AssetsImagesTasksGen {
+  const $AssetsImagesTasksGen();
+
+  /// File path: assets/images/tasks/arrowleft.svg
+  String get arrowleft => 'assets/images/tasks/arrowleft.svg';
+
+  /// File path: assets/images/tasks/calendaricon2.svg
+  String get calendaricon2 => 'assets/images/tasks/calendaricon2.svg';
+
+  /// File path: assets/images/tasks/editicon.svg
+  String get editicon => 'assets/images/tasks/editicon.svg';
+
+  /// File path: assets/images/tasks/profileicon.svg
+  String get profileicon => 'assets/images/tasks/profileicon.svg';
+
+  /// File path: assets/images/tasks/tickicon.svg
+  String get tickicon => 'assets/images/tasks/tickicon.svg';
+
+  /// List of all assets
+  List<String> get values =>
+      [arrowleft, calendaricon2, editicon, profileicon, tickicon];
 }
 
 class Assets {
