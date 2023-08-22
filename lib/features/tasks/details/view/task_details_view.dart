@@ -1,5 +1,6 @@
 import 'package:day_task/core/utils/colors.dart';
 import 'package:day_task/core/utils/extentions.dart';
+import 'package:day_task/features/tasks/details/view/widgets/task_details_custom_bottom_nav.dart';
 import 'package:day_task/features/tasks/details/view/widgets/task_details_view_body.dart';
 import 'package:day_task/gen/assets.gen.dart';
 import 'package:flutter/material.dart';
@@ -33,7 +34,6 @@ class TasksDetailsView extends StatelessWidget {
           ),
         ),
         centerTitle: true,
-        
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 14),
@@ -42,6 +42,7 @@ class TasksDetailsView extends StatelessWidget {
         ],
       ),
       body: const TasksDetailsViewBody(),
+      bottomNavigationBar: const TaskDetailsCustomBottomNav(),
     );
   }
 }

@@ -126,18 +126,25 @@ class $AssetsImagesTasksGen {
   /// File path: assets/images/tasks/profileicon.svg
   String get profileicon => 'assets/images/tasks/profileicon.svg';
 
-  /// File path: assets/images/tasks/tickicon.svg
-  String get tickicon => 'assets/images/tasks/tickicon.svg';
+  /// File path: assets/images/tasks/tickicon1.svg
+  String get tickicon1 => 'assets/images/tasks/tickicon1.svg';
+
+  /// File path: assets/images/tasks/tickicon2.svg
+  String get tickicon2 => 'assets/images/tasks/tickicon2.svg';
 
   /// List of all assets
   List<String> get values =>
-      [arrowleft, calendaricon2, editicon, profileicon, tickicon];
+      [arrowleft, calendaricon2, editicon, profileicon, tickicon1, tickicon2];
 }
 
 class Assets {
   Assets._();
 
   static const $AssetsImagesGen images = $AssetsImagesGen();
+  static const AssetGenImage splash = AssetGenImage('assets/splash.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [splash];
 }
 
 class AssetGenImage {

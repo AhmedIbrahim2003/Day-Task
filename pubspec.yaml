@@ -45,7 +45,8 @@ flutter:
     - assets/images/tasks/calendaricon2.svg
     - assets/images/tasks/editicon.svg
     - assets/images/tasks/profileicon.svg
-    - assets/images/tasks/tickicon.svg
+    - assets/images/tasks/tickicon1.svg
+    - assets/images/tasks/tickicon2.svg
     - assets/splash.png
 
   fonts:
