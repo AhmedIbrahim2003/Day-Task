@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.3
+  flutter_native_splash: ^2.3.2
   flutter_svg: ^2.0.7
   google_fonts: ^5.1.0
   hexcolor: ^3.0.1
@@ -45,6 +46,7 @@ flutter:
     - assets/images/tasks/editicon.svg
     - assets/images/tasks/profileicon.svg
     - assets/images/tasks/tickicon.svg
+    - assets/splash.png
 
   fonts:
     - family: Pilat Extended

@@ -6,8 +6,6 @@ import 'core/utils/colors.dart';
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
-//on generate routs
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
